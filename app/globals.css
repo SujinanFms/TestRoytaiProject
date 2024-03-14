@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  font-family: "Bai Jamjuree";
+
+  --color-primary: #00b700;
+  --color-primary-hover: #f0f8ed;
+  --color-menu: #5c6269;
+}
+
+body {
+  margin: 0;
+  text-decoration: none;
+  padding: 0;
+}
+
+/* ์Navbar */
+.ant-pro-layout .ant-layout-header.ant-pro-layout-header {
+  height: 152px;
+}
+
+/* Navbar Menu Left*/
+.ant-pro-top-nav-header-menu {
+  align-items: flex-start;
+  padding-inline-start: 0;
+}
+
+/* Navbar Menu Right */
+.ant-pro-global-header-header-actions-item {
+  align-items: flex-start;
+  /* padding-block: 16px;
+    padding-inline: 16px; */
+}
+.ant-pro-global-header-header-actions-item > * {
+  padding-inline: 0px;
+  padding-block: 0px;
+  /* border-radius: 6px; */
+}
+
+/* Navbar Avatar */
+.ant-pro-global-header-header-actions-avatar {
+  align-items: flex-start;
+  padding-inline-start: 0px;
+  padding-inline-end: 0px;
+  padding-top: 4px;
+}
+
+/* Todo : Banner */
+.ant-page-header-no-children {
+  height: 0px;
+  /* background: #fff; */
+}
+
+/* Container */
+.ant-pro-page-container-children-container {
+  background: #fff;
+  padding-inline: 0px;
+}
+
+/* คำแสดงที่ Logo */
+.ant-pro-top-nav-header-logo > *:first-child > h1 {
+  display: none; /* หรือ visibility: hidden; */
+}
+
+/* .ant-pro-base-menu-horizontal-item-text {
+  color: var(--color-menu);
+} */
+
+/* .ant-menu-horizontal .ant-menu-item-active,
+.ant-menu-horizontal .ant-menu-item-selected {
+  background-color: red;
+  color: white; 
+}  */
+
+.ant-menu-light.ant-menu-horizontal > .ant-menu-item-selected {
+  color: #00b700;
+}
